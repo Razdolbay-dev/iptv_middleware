@@ -1,71 +1,49 @@
 <template>
-  <div class="player-screen flex flex-col items-center justify-center bg-black text-white">
-    <div v-if="!isSTB">
-      <video ref="videoRef" controls autoplay class="w-full h-full object-contain bg-black" />
-    </div>
-    <div v-else>
-      <p class="text-lg">▶️ Воспроизведение на STB...</p>
-    </div>
+  <div class="player-screen" @keydown="onKeyDown" tabindex="0">
+    <div class="overlay">Loading stream...</div>
   </div>
 </template>
 
-<script setup>
-import { onMounted, onUnmounted, ref } from 'vue'
-import { useRoute, useRouter } from 'vue-router'
-import { remote } from '@/utils/remoteControl'
-
-const route = useRoute()
-const router = useRouter()
-const videoRef = ref(null)
-
-const url = route.query.url || ''
-const isSTB = typeof window.gSTB !== 'undefined'
-
-function playSTB(url) {
-  try {
-    gSTB.Stop()
-    gSTB.Play(url)
-    console.log('STB: start playback', url)
-  } catch (e) {
-    console.error('STB playback error:', e)
-  }
-}
-
-function stopSTB() {
-  try {
-    gSTB.Stop()
-    console.log('STB: stop playback')
-  } catch {}
-}
-
-function playHTML5(url) {
-  if (videoRef.value) {
-    videoRef.value.src = url
-    videoRef.value.play().catch(console.error)
-  }
-}
-
-onMounted(() => {
-  if (isSTB) playSTB(url)
-  else playHTML5(url)
-
-  remote.on('back', handleBack)
-})
-
-function handleBack() {
-  if (isSTB) stopSTB()
-  router.push('/tv')
-}
-
-onUnmounted(() => {
-  remote.off('back', handleBack)
-  if (isSTB) stopSTB()
-})
+<script>
+export default {
+  name: "Player",
+  props: { streamUrl: String },
+  mounted() {
+    this.initPlayer();
+    this.$el.focus();
+  },
+  methods: {
+    initPlayer() {
+      const stb = window.gSTB || window.stb;
+      if (!stb) {
+        console.warn("STB API not detected");
+        return;
+      }
+      try {
+        stb.InitPlayer();
+        stb.Play(this.streamUrl);
+      } catch (err) {
+        console.error("STB Play error:", err);
+      }
+    },
+    onKeyDown(e) {
+      const stb = window.gSTB || window.stb;
+      if (!stb) return;
+      switch (e.keyCode) {
+        case 115: stb.Stop(); break; // Stop
+        case 114: stb.Play(this.streamUrl); break; // Play
+        case 27: this.$router.push("/tv"); break; // Exit
+      }
+    },
+  },
+};
 </script>
 
 <style scoped>
 .player-screen {
+  background: black;
   width: 100vw;
   height: 100vh;
+  color: white;
 }
 </style>

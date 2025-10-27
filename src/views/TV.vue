@@ -1,6 +1,5 @@
 <template>
   <div class="tv-screen bg-[#1c1f2a] text-white w-full h-full flex overflow-hidden">
-
     <!-- Список каналов -->
     <div class="channels-list w-2/5 bg-[#20263a] p-4 overflow-hidden">
       <div class="text-sm text-gray-400 mb-2">
@@ -33,7 +32,7 @@
       </div>
     </div>
 
-    <!-- Превью справа -->
+    <!-- Проигрыватель -->
     <div class="flex-1 bg-[#181b27] p-6 flex flex-col justify-between">
       <div>
         <div class="text-2xl font-bold mb-2">{{ currentChannel?.name }}</div>
@@ -41,12 +40,7 @@
       </div>
 
       <div class="flex justify-center items-center flex-1">
-        <img
-            v-if="currentChannel?.attrs['tvg-logo']"
-            :src="currentChannel.attrs['tvg-logo']"
-            class="max-h-48 object-contain rounded-lg shadow"
-            alt="logo"
-        />
+        <div id="player-area" class="w-full h-full bg-black rounded-lg shadow"></div>
       </div>
 
       <div class="text-sm text-gray-400">
@@ -57,24 +51,22 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted, onUnmounted } from 'vue'
+import { ref, computed, onMounted, onUnmounted, watch } from 'vue'
 import { useRouter } from 'vue-router'
-import {remote} from '@/utils/remoteControl'
+import { remote } from '@/utils/remoteControl'
 import { getChannels } from '@/api/tvApi'
 
 const router = useRouter()
-
 const channels = ref([])
 const selectedIndex = ref(0)
 const scrollOffset = ref(0)
-const pageSize = 10
+const pageSize = 14
 
 const visibleChannels = computed(() =>
     channels.value.slice(scrollOffset.value, scrollOffset.value + pageSize)
 )
 const currentChannel = computed(() => channels.value[selectedIndex.value])
 
-// Загрузка каналов
 async function fetchChannels() {
   try {
     const data = await getChannels()
@@ -84,7 +76,7 @@ async function fetchChannels() {
   }
 }
 
-// Навигация ↑ ↓
+// --- навигация ---
 function moveUp() {
   if (selectedIndex.value > 0) {
     selectedIndex.value--
@@ -99,29 +91,85 @@ function moveDown() {
   }
 }
 
-// Открыть канал
-function openChannel(channel) {
+// --- универсальный запуск плеера ---
+function playChannel(channel, isPreview = false) {
   if (!channel?.url) return
-  router.push({ path: '/player', query: { url: channel.url } })
+  const url = channel.url
+  const player = window.gSTB || window.stb || window.gstb
+
+  if (!player) {
+    console.warn('⚠️ gSTB не найден — возможно, не MAG')
+    router.push({ path: '/player', query: { url } })
+    return
+  }
+
+  try {
+    // Координаты блока player-area
+    const el = document.getElementById('player-area')
+    const rect = el.getBoundingClientRect()
+    const x = Math.round(rect.left)
+    const y = Math.round(rect.top)
+    const w = Math.round(rect.width)
+    const h = Math.round(rect.height)
+
+    player.Stop?.()
+    player.InitPlayer?.()
+
+    if (isPreview) {
+      // Показываем поток в области превью
+      player.SetVideoPortal?.(x, y, w, h)
+      console.log(`🎬 Превью: ${url}`)
+    } else {
+      // Полноэкранный режим
+      player.SetVideoPortal?.(0, 0, 1280, 720)
+      console.log(`▶️ Полный экран: ${url}`)
+    }
+
+    player.Play(url)
+    player.SetVideoState?.(1)
+  } catch (e) {
+    console.error('Ошибка запуска HLS:', e)
+  }
 }
 
-// Подключаем управление пультом
+// --- mount / unmount ---
 onMounted(() => {
   fetchChannels()
 
+  // Инициализация видеослоя
+  setTimeout(() => {
+    const player = window.gSTB || window.stb || window.gstb
+    player?.SetVideoState?.(1)
+  }, 500)
+
+  // Навигация с ПДУ
   remote.on('up', moveUp)
   remote.on('down', moveDown)
-  remote.on('enter', () => openChannel(currentChannel.value))
-  remote.on('back', () => router.push('/'))
+  remote.on('enter', () => playChannel(currentChannel.value, false))
+  remote.on('back', () => {
+    const player = window.gSTB || window.stb || window.gstb
+    player?.Stop?.()
+    router.push('/')
+  })
 
   console.log('TV navigation ready')
 })
 
 onUnmounted(() => {
+  try {
+    const player = window.gSTB || window.stb || window.gstb
+    player?.Stop?.()
+  } catch {}
   remote.off('up', moveUp)
   remote.off('down', moveDown)
   remote.off('enter')
   remote.off('back')
+})
+
+// --- превью при выборе канала ---
+watch(selectedIndex, (newVal) => {
+  const ch = channels.value[newVal]
+  if (ch?.url) playChannel(ch, true)
 })
 </script>
 

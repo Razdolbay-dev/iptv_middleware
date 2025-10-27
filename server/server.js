@@ -7,7 +7,7 @@ import { fileURLToPath } from 'url';
 import tvRoutes from './routes/tvRoutes.js';
 
 const app = express();
-const PORT = 8081;
+const PORT = 5173;
 const HOST = '0.0.0.0';
 
 app.use(cors());

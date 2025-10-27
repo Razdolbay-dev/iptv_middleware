@@ -1,349 +1,349 @@
 #EXTM3U url-tvg="http://iptv.pit.su/epg.xml.gz" refresh="3600" deinterlace=1 cache=500 m3uautoload=1
 #EXTINF:-1 tvg-id="146" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/116.png", Первый канал
 #EXTGRP: Региональный
-http://ipmedia.pit.su/a02n/index.m3u8
+http://10.1.0.8/a02n/index.m3u8
 #EXTINF:-1 tvg-id="711" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/114.png", Россия 1
 #EXTGRP: Региональный
-http://ipmedia.pit.su/a037/index.m3u8
+http://10.1.0.8/a037/index.m3u8
 #EXTINF:-1 tvg-id="2051" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/118.png", Матч!
 #EXTGRP: Региональный
-http://ipmedia.pit.su/a03f/index.m3u8
+http://10.1.0.8/a03f/index.m3u8
 #EXTINF:-1 tvg-id="162" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/115.png", НТВ
 #EXTGRP: Региональный
-http://ipmedia.pit.su/a03q/index.m3u8
+http://10.1.0.8/a03q/index.m3u8
 #EXTINF:-1 tvg-id="427" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/122.png", Пятый канал
 #EXTGRP: Региональный
-http://ipmedia.pit.su/a03k/index.m3u8
+http://10.1.0.8/a03k/index.m3u8
 #EXTINF:-1 tvg-id="187" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/117.png", Россия-Культура
 #EXTGRP: Региональный
-http://ipmedia.pit.su/a03w/index.m3u8
+http://10.1.0.8/a03w/index.m3u8
 #EXTINF:-1 tvg-id="2975" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/121.png", Россия-24
 #EXTGRP: Региональный
-http://ipmedia.pit.su/a03y/index.m3u8
+http://10.1.0.8/a03y/index.m3u8
 #EXTINF:-1 tvg-id="740" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/120.png", Карусель
 #EXTGRP: Региональный
-http://ipmedia.pit.su/a040/index.m3u8
+http://10.1.0.8/a040/index.m3u8
 #EXTINF:-1 tvg-id="1000" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/119.png", ОТР
 #EXTGRP: Региональный
-http://ipmedia.pit.su/a045/index.m3u8
+http://10.1.0.8/a045/index.m3u8
 #EXTINF:-1 tvg-id="649" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/123.png", ТВЦ
 #EXTGRP: Региональный
-http://ipmedia.pit.su/a02o/index.m3u8
+http://10.1.0.8/a02o/index.m3u8
 #EXTINF:-1 tvg-id="18" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/124.png", Рен ТВ
 #EXTGRP: Региональный
-http://ipmedia.pit.su/a02y/index.m3u8
+http://10.1.0.8/a02y/index.m3u8
 #EXTINF:-1 tvg-id="2141" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/126.png", СПАС
 #EXTGRP: Региональный
-http://ipmedia.pit.su/a02z/index.m3u8
+http://10.1.0.8/a02z/index.m3u8
 #EXTINF:-1 tvg-id="79" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/128.png", СТС
 #EXTGRP: Региональный
-http://ipmedia.pit.su/a030/index.m3u8
+http://10.1.0.8/a030/index.m3u8
 #EXTINF:-1 tvg-id="304" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/130.png", Домашний
 #EXTGRP: Региональный
-http://ipmedia.pit.su/a031/index.m3u8
+http://10.1.0.8/a031/index.m3u8
 #EXTINF:-1 tvg-id="698" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/125.png", ТВ3
 #EXTGRP: Региональный
-http://ipmedia.pit.su/a032/index.m3u8
+http://10.1.0.8/a032/index.m3u8
 #EXTINF:-1 tvg-id="1003" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/129.png", Пятница!
 #EXTGRP: Региональный
-http://ipmedia.pit.su/a033/index.m3u8
+http://10.1.0.8/a033/index.m3u8
 #EXTINF:-1 tvg-id="405" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/132.png", Звезда
 #EXTGRP: Региональный
-http://ipmedia.pit.su/a034/index.m3u8
+http://10.1.0.8/a034/index.m3u8
 #EXTINF:-1 tvg-id="726" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/127.png", Мир
 #EXTGRP: Региональный
-http://ipmedia.pit.su/a035/index.m3u8
+http://10.1.0.8/a035/index.m3u8
 #EXTINF:-1 tvg-id="353" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/131.png", ТНТ
 #EXTGRP: Региональный
-http://ipmedia.pit.su/a036/index.m3u8
+http://10.1.0.8/a036/index.m3u8
 #EXTINF:-1 tvg-id="897" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/134.png", Муз-ТВ
 #EXTGRP: Региональный
-http://ipmedia.pit.su/a038/index.m3u8
+http://10.1.0.8/a038/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/133.png", СампоТВ
 #EXTGRP: Региональный
-http://ipmedia.pit.su/a039/index.m3u8
+http://10.1.0.8/a039/index.m3u8
 #EXTINF:-1 tvg-id="2302" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/142.png", Leomax 24
 #EXTGRP: Телемагазин
-http://ipmedia.pit.su/Leomax_24/index.m3u8
+http://10.1.0.8/Leomax_24/index.m3u8
 #EXTINF:-1 tvg-id="20" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/137.png", Ювелирочка
 #EXTGRP: Телемагазин
-http://ipmedia.pit.su/Yuvelirochka/index.m3u8
+http://10.1.0.8/Yuvelirochka/index.m3u8
 #EXTINF:-1 tvg-id="2298" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/229.png", Загородная жизнь
 #EXTGRP: Развлекательные
-http://ipmedia.pit.su/zagorodnaya_n3/index.m3u8
+http://10.1.0.8/zagorodnaya_n3/index.m3u8
 #EXTINF:-1 tvg-id="1322" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/187.png", СТС Love
 #EXTGRP: Фильмы
-http://ipmedia.pit.su/STS_Love/index.m3u8
+http://10.1.0.8/STS_Love/index.m3u8
 #EXTINF:-1 tvg-id="2275" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/230.png", Мир сериала
 #EXTGRP: Фильмы
-http://ipmedia.pit.su/mir_seriala_n3/index.m3u8
+http://10.1.0.8/mir_seriala_n3/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/186.png", BOLT HD
 #EXTGRP: Фильмы
-http://ipmedia.pit.su/a03d/index.m3u8
+http://10.1.0.8/a03d/index.m3u8
 #EXTINF:-1 tvg-id="1754" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/154.png", НТВ Сериал
 #EXTGRP: Фильмы
-http://ipmedia.pit.su/NTV_Serial/index.m3u8
+http://10.1.0.8/NTV_Serial/index.m3u8
 #EXTINF:-1 tvg-id="2402" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/297.png", Ретро
 #EXTGRP: Фильмы
-http://ipmedia.pit.su/retro_n3/index.m3u8
+http://10.1.0.8/retro_n3/index.m3u8
 #EXTINF:-1 tvg-id="477" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/231.png", Любимое кино
 #EXTGRP: Фильмы
-http://ipmedia.pit.su/love_cinema_n3/index.m3u8
+http://10.1.0.8/love_cinema_n3/index.m3u8
 #EXTINF:-1 tvg-id="2442" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/161.png", Усадьба
 #EXTGRP: Развлекательные
-http://ipmedia.pit.su/usadba_n3/index.m3u8
+http://10.1.0.8/usadba_n3/index.m3u8
 #EXTINF:-1 tvg-id="2008" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/233.png", Авто24
 #EXTGRP: Развлекательные
-http://ipmedia.pit.su/auto_24_n3/index.m3u8
+http://10.1.0.8/auto_24_n3/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/143.png", КЭСКО
 #EXTGRP: Новостной
-http://ipmedia.pit.su/a03g/index.m3u8
+http://10.1.0.8/a03g/index.m3u8
 #EXTINF:-1 tvg-id="7283" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/148.png", Солнце
 #EXTGRP: Для детей
-http://ipmedia.pit.su/Solnce/index.m3u8
+http://10.1.0.8/Solnce/index.m3u8
 #EXTINF:-1 tvg-id="2027" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/234.png", В гостях у сказки
 #EXTGRP: Для детей
-http://ipmedia.pit.su/u_skazki_n3/index.m3u8
+http://10.1.0.8/u_skazki_n3/index.m3u8
 #EXTINF:-1 tvg-id="898" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/153.png", Ю ТВ
 #EXTGRP: Развлекательные
-http://ipmedia.pit.su/Yu_TV/index.m3u8
+http://10.1.0.8/Yu_TV/index.m3u8
 #EXTINF:-1 tvg-id="2444" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/235.png", Мужской
 #EXTGRP: Развлекательные
-http://ipmedia.pit.su/muzhskoy_n3/index.m3u8
+http://10.1.0.8/muzhskoy_n3/index.m3u8
 #EXTINF:-1 tvg-id="2419" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/273.png", Охота и рыбалка
 #EXTGRP: Развлекательные
-http://ipmedia.pit.su/a02i/index.m3u8
+http://10.1.0.8/a02i/index.m3u8
 #EXTINF:-1 tvg-id="2288" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/150.png", Суббота
 #EXTGRP: Фильмы
-http://ipmedia.pit.su/Subbota/index.m3u8
+http://10.1.0.8/Subbota/index.m3u8
 #EXTINF:-1 tvg-id="4621" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/151.png", Bridge Шлягер
 #EXTGRP: Музыкальные
-http://ipmedia.pit.su/Shanson_TV/index.m3u8
+http://10.1.0.8/Shanson_TV/index.m3u8
 #EXTINF:-1 tvg-id="1598" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/158.png", Че
 #EXTGRP: Развлекательные
-http://ipmedia.pit.su/Che/index.m3u8
+http://10.1.0.8/Che/index.m3u8
 #EXTINF:-1 tvg-id="1649" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/165.png", ТНТ4
 #EXTGRP: Развлекательные
-http://ipmedia.pit.su/TNT4/index.m3u8
+http://10.1.0.8/TNT4/index.m3u8
 #EXTINF:-1 tvg-id="2417" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/199.png", Большая Азия
 #EXTGRP: Документальное
-http://ipmedia.pit.su/big_asia_n3/index.m3u8
+http://10.1.0.8/big_asia_n3/index.m3u8
 #EXTINF:-1 tvg-id="2476" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/213.png", Красная линия
 #EXTGRP: Фильмы
-http://ipmedia.pit.su/red_line_n3/index.m3u8
+http://10.1.0.8/red_line_n3/index.m3u8
 #EXTINF:-1 tvg-id="2550" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/208.png", 8 канал
 #EXTGRP: Развлекательные
-http://ipmedia.pit.su/8_kanal/index.m3u8
+http://10.1.0.8/8_kanal/index.m3u8
 #EXTINF:-1 tvg-id="2451" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/239.png", Вопросы и Ответы
 #EXTGRP: Развлекательные
-http://ipmedia.pit.su/voprosi_i_otveti_n3/index.m3u8
+http://10.1.0.8/voprosi_i_otveti_n3/index.m3u8
 #EXTINF:-1 tvg-id="2434" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/211.png", Пёс и Ко
 #EXTGRP: Развлекательные
-http://ipmedia.pit.su/a03i/index.m3u8
+http://10.1.0.8/a03i/index.m3u8
 #EXTINF:-1 tvg-id="2761" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/188.png", Калейдоскоп ТВ
 #EXTGRP: Развлекательные
-http://ipmedia.pit.su/kaleydoskop_n3/index.m3u8
+http://10.1.0.8/kaleydoskop_n3/index.m3u8
 #EXTINF:-1 tvg-id="617" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/242.png", Точка отрыва
 #EXTGRP: Развлекательные
-http://ipmedia.pit.su/tochka_otriva_n3/index.m3u8
+http://10.1.0.8/tochka_otriva_n3/index.m3u8
 #EXTINF:-1 tvg-id="2287" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/243.png", Радость Моя
 #EXTGRP: Развлекательные
-http://ipmedia.pit.su/radost_moya_n3/index.m3u8
+http://10.1.0.8/radost_moya_n3/index.m3u8
 #EXTINF:-1 tvg-id="2457" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/244.png", Точка ТВ
 #EXTGRP: Развлекательные
-http://ipmedia.pit.su/tochka_tv_n3/index.m3u8
+http://10.1.0.8/tochka_tv_n3/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/", TVMChannel
 #EXTGRP: Развлекательные
-http://ipmedia.pit.su/tvm_channel_n3/index.m3u8
+http://10.1.0.8/tvm_channel_n3/index.m3u8
 #EXTINF:-1 tvg-id="726" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/246.png", Мир HD
 #EXTGRP: Развлекательные
-http://ipmedia.pit.su/mir_hd_n3/index.m3u8
+http://10.1.0.8/mir_hd_n3/index.m3u8
 #EXTINF:-1 tvg-id="2462" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/198.png", Открытый мир
 #EXTGRP: Развлекательные
-http://ipmedia.pit.su/openworld_n3/index.m3u8
+http://10.1.0.8/openworld_n3/index.m3u8
 #EXTINF:-1 tvg-id="2295" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/298.png", RTD
 #EXTGRP: Новостной
-http://ipmedia.pit.su/rtd_n3/index.m3u8
+http://10.1.0.8/rtd_n3/index.m3u8
 #EXTINF:-1 tvg-id="521" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/249.png", viju Explore
 #EXTGRP: Документальное
-http://ipmedia.pit.su/viju_explore_n3/index.m3u8
+http://10.1.0.8/viju_explore_n3/index.m3u8
 #EXTINF:-1 tvg-id="765" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/250.png", viju Nature
 #EXTGRP: Документальное
-http://ipmedia.pit.su/viju_nature_n3/index.m3u8
+http://10.1.0.8/viju_nature_n3/index.m3u8
 #EXTINF:-1 tvg-id="277" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/251.png", viju History
 #EXTGRP: Документальное
-http://ipmedia.pit.su/viju_history_n3/index.m3u8
+http://10.1.0.8/viju_history_n3/index.m3u8
 #EXTINF:-1 tvg-id="2280" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/252.png", RTG TV
 #EXTGRP: Документальное
-http://ipmedia.pit.su/rtg_tv_n3/index.m3u8
+http://10.1.0.8/rtg_tv_n3/index.m3u8
 #EXTINF:-1 tvg-id="410" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/253.png", Da Vinci Learning
 #EXTGRP: Развлекательные
-http://ipmedia.pit.su/da_vinci_n3/index.m3u8
+http://10.1.0.8/da_vinci_n3/index.m3u8
 #EXTINF:-1 tvg-id="2450" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/254.png", Психология
 #EXTGRP: Документальное
-http://ipmedia.pit.su/psihologyia_n3/index.m3u8
+http://10.1.0.8/psihologyia_n3/index.m3u8
 #EXTINF:-1 tvg-id="2467" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/255.png", #КтоКуда
 #EXTGRP: Развлекательные
-http://ipmedia.pit.su/kto_kuda_n3/index.m3u8
+http://10.1.0.8/kto_kuda_n3/index.m3u8
 #EXTINF:-1 tvg-id="2280" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/256.png", RTG TV HD
 #EXTGRP: Развлекательные
-http://ipmedia.pit.su/rtg_tv_hd_n3/index.m3u8
+http://10.1.0.8/rtg_tv_hd_n3/index.m3u8
 #EXTINF:-1 tvg-id="53" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/257.png", Русский Иллюзион
 #EXTGRP: Фильмы
 http://10.1.0.8/ege_tv_n3/index.m3u8
 #EXTINF:-1 tvg-id="323" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/155.png", 2x2
 #EXTGRP: Развлекательные
-http://ipmedia.pit.su/2x2/index.m3u8
+http://10.1.0.8/2x2/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/", Соловьёв LIVE
 #EXTGRP: Документальное
-http://ipmedia.pit.su/solovey_LIVE_n3/index.m3u8
+http://10.1.0.8/solovey_LIVE_n3/index.m3u8
 #EXTINF:-1 tvg-id="2407" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/260.png", Киноман
 #EXTGRP: Фильмы
-http://ipmedia.pit.su/rzd_n3/index.m3u8
+http://10.1.0.8/rzd_n3/index.m3u8
 #EXTINF:-1 tvg-id="2521" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/261.png", Нано
 #EXTGRP: Развлекательные
-http://ipmedia.pit.su/nano_n3/index.m3u8
+http://10.1.0.8/nano_n3/index.m3u8
 #EXTINF:-1 tvg-id="2403" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/262.png", Иллюзион +
 #EXTGRP: Фильмы
-http://ipmedia.pit.su/luxury_n3/index.m3u8
+http://10.1.0.8/luxury_n3/index.m3u8
 #EXTINF:-1 tvg-id="352" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/263.png", Еврокино
 #EXTGRP: Фильмы
-http://ipmedia.pit.su/eurokino_n3/index.m3u8
+http://10.1.0.8/eurokino_n3/index.m3u8
 #EXTINF:-1 tvg-id="2181" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/264.png", Filmbox
 #EXTGRP: Фильмы
-http://ipmedia.pit.su/filmbox_n3/index.m3u8
+http://10.1.0.8/filmbox_n3/index.m3u8
 #EXTINF:-1 tvg-id="2182" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/265.png", Filmbox Arthouse
 #EXTGRP: Фильмы
-http://ipmedia.pit.su/filmbox_arthouse_n3/index.m3u8
+http://10.1.0.8/filmbox_arthouse_n3/index.m3u8
 #EXTINF:-1 tvg-id="127" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/266.png", viju ТВ1000
 #EXTGRP: Фильмы
-http://ipmedia.pit.su/viju_tv1000_n3/index.m3u8
+http://10.1.0.8/viju_tv1000_n3/index.m3u8
 #EXTINF:-1 tvg-id="267" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/267.png", viju ТВ1000 Русское кино
 #EXTGRP: Фильмы
-http://ipmedia.pit.su/viju_tv1000_russkoe_n3/index.m3u8
+http://10.1.0.8/viju_tv1000_russkoe_n3/index.m3u8
 #EXTINF:-1 tvg-id="125" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/268.png", viju ТВ1000 Action
 #EXTGRP: Фильмы
-http://ipmedia.pit.su/viju_tv1000_action_n3/index.m3u8
+http://10.1.0.8/viju_tv1000_action_n3/index.m3u8
 #EXTINF:-1 tvg-id="2757" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/269.png", Мультиландия
 #EXTGRP: Для детей
-http://ipmedia.pit.su/multilandiya_n3/index.m3u8
+http://10.1.0.8/multilandiya_n3/index.m3u8
 #EXTINF:-1 tvg-id="2265" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/176.png", 360°
 #EXTGRP: Развлекательные
-http://ipmedia.pit.su/telekanal_360_n3/index.m3u8
+http://10.1.0.8/telekanal_360_n3/index.m3u8
 #EXTINF:-1 tvg-id="923" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/270.png", Детский мир
 #EXTGRP: Для детей
-http://ipmedia.pit.su/detskiy_mir_n3/index.m3u8
+http://10.1.0.8/detskiy_mir_n3/index.m3u8
 #EXTINF:-1 tvg-id="2028" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/271.png", Моя стихия
 #EXTGRP: Развлекательные
-http://ipmedia.pit.su/moya_stixiya_n3/index.m3u8
+http://10.1.0.8/moya_stixiya_n3/index.m3u8
 #EXTINF:-1 tvg-id="2443" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/272.png", Драйв
 #EXTGRP: Развлекательные
-http://ipmedia.pit.su/drive_n3/index.m3u8
+http://10.1.0.8/drive_n3/index.m3u8
 #EXTINF:-1 tvg-id="5881" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/238.png", Живи активно HD
 #EXTGRP: Развлекательные
-http://ipmedia.pit.su/zhivi_aktivno_n3/index.m3u8
+http://10.1.0.8/zhivi_aktivno_n3/index.m3u8
 #EXTINF:-1 tvg-id="2022" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/274.png", BRIDGE TV DELUXE
 #EXTGRP: Музыкальные
-http://ipmedia.pit.su/bridge_delux_n3/index.m3u8
+http://10.1.0.8/bridge_delux_n3/index.m3u8
 #EXTINF:-1 tvg-id="681" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/275.png", Europa Plus TV
 #EXTGRP: Музыкальные
-http://ipmedia.pit.su/europa_plus_n3/index.m3u8
+http://10.1.0.8/europa_plus_n3/index.m3u8
 #EXTINF:-1 tvg-id="2277" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/195.png", RU.TV
 #EXTGRP: Музыкальные
-http://ipmedia.pit.su/RU_TV/index.m3u8
+http://10.1.0.8/RU_TV/index.m3u8
 #EXTINF:-1 tvg-id="680" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/159.png", ТНТ Music
 #EXTGRP: Музыкальные
-http://ipmedia.pit.su/TNT_Music/index.m3u8
+http://10.1.0.8/TNT_Music/index.m3u8
 #EXTINF:-1 tvg-id="2412" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/228.png", O!2
 #EXTGRP: Музыкальные
-http://ipmedia.pit.su/o2_tv_n3/index.m3u8
+http://10.1.0.8/o2_tv_n3/index.m3u8
 #EXTINF:-1 tvg-id="2271" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/205.png", Известия
 #EXTGRP: Новостной
-http://ipmedia.pit.su/izvestia_n3/index.m3u8
+http://10.1.0.8/izvestia_n3/index.m3u8
 #EXTINF:-1 tvg-id="4458" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/175.png", 360° Новости HD
 #EXTGRP: Новостной
-http://ipmedia.pit.su/360_news_n3/index.m3u8
+http://10.1.0.8/360_news_n3/index.m3u8
 #EXTINF:-1 tvg-id="2078" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/167.png", Мир 24
 #EXTGRP: Новостной
-http://ipmedia.pit.su/mir_24_n3/index.m3u8
+http://10.1.0.8/mir_24_n3/index.m3u8
 #EXTINF:-1 tvg-id="2508" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/258.png", Глазами туриста HD
 #EXTGRP: Развлекательные
-http://ipmedia.pit.su/tourist_eyes_hd_n3/index.m3u8
+http://10.1.0.8/tourist_eyes_hd_n3/index.m3u8
 #EXTINF:-1 tvg-id="743" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/280.png", РБК
 #EXTGRP: Новостной
-http://ipmedia.pit.su/a046/index.m3u8
+http://10.1.0.8/a046/index.m3u8
 #EXTINF:-1 tvg-id="690" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/194.png", Санкт-Петербург
 #EXTGRP: Развлекательные
-http://ipmedia.pit.su/a047/index.m3u8
+http://10.1.0.8/a047/index.m3u8
 #EXTINF:-1 tvg-id="3792" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/281.png", FightBox
 #EXTGRP: Спорт
-http://ipmedia.pit.su/fightbox_n3/index.m3u8
+http://10.1.0.8/fightbox_n3/index.m3u8
 #EXTINF:-1 tvg-id="2362" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/282.png", FastBox & Fun
 #EXTGRP: Спорт
-http://ipmedia.pit.su/fastbox_and_fun_n3/index.m3u8
+http://10.1.0.8/fastbox_and_fun_n3/index.m3u8
 #EXTINF:-1 tvg-id="2782" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/283.png", Футбол
 #EXTGRP: Спорт
-http://ipmedia.pit.su/football_n3/index.m3u8
+http://10.1.0.8/football_n3/index.m3u8
 #EXTINF:-1 tvg-id="2055" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/284.png", viju Sport
 #EXTGRP: Спорт
-http://ipmedia.pit.su/viju_sport_n3/index.m3u8
+http://10.1.0.8/viju_sport_n3/index.m3u8
 #EXTINF:-1 tvg-id="6029" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/285.png", ПРНК HD
 #EXTGRP: Развлекательные
-http://ipmedia.pit.su/1prnk_n3/index.m3u8
+http://10.1.0.8/1prnk_n3/index.m3u8
 #EXTINF:-1 tvg-id="2398" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/286.png", Вместе РФ
 #EXTGRP: Документальное
-http://ipmedia.pit.su/vmeste_rf_n3/index.m3u8
+http://10.1.0.8/vmeste_rf_n3/index.m3u8
 #EXTINF:-1 tvg-id="4373" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/197.png", Bridge TV Classic
 #EXTGRP: Музыкальные
-http://ipmedia.pit.su/bridge_tv_classic/index.m3u8
+http://10.1.0.8/bridge_tv_classic/index.m3u8
 #EXTINF:-1 tvg-id="2465" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/196.png", ЛДПР ТВ
 #EXTGRP: Новостной
-http://ipmedia.pit.su/ldpr_tv_n3/index.m3u8
+http://10.1.0.8/ldpr_tv_n3/index.m3u8
 #EXTINF:-1 tvg-id="2448" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/179.png", Союз
 #EXTGRP: Православные
-http://ipmedia.pit.su/souz_n3/index.m3u8
+http://10.1.0.8/souz_n3/index.m3u8
 #EXTINF:-1 tvg-id="1732" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/160.png", Надежда
 #EXTGRP: Православные
-http://ipmedia.pit.su/Nadezhda/index.m3u8
+http://10.1.0.8/Nadezhda/index.m3u8
 #EXTINF:-1 tvg-id="2469" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/169.png", Три ангела
 #EXTGRP: Православные
-http://ipmedia.pit.su/Tri_angela/index.m3u8
+http://10.1.0.8/Tri_angela/index.m3u8
 #EXTINF:-1 tvg-id="2413" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/174.png", МузСоюз
 #EXTGRP: Музыкальные
-http://ipmedia.pit.su/MuzSoyuz/index.m3u8
+http://10.1.0.8/MuzSoyuz/index.m3u8
 #EXTINF:-1 tvg-id="162" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/193.png", НТВ HD
 #EXTGRP: HD
-http://ipmedia.pit.su/NTV_HD/index.m3u8
+http://10.1.0.8/NTV_HD/index.m3u8
 #EXTINF:-1 tvg-id="711" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/191.png", Россия 1 HD
 #EXTGRP: HD
-http://ipmedia.pit.su/Rossiya_1_HD/index.m3u8
+http://10.1.0.8/Rossiya_1_HD/index.m3u8
 #EXTINF:-1 tvg-id="2474" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/202.png", КРЫМ 24
 #EXTGRP: Новостной
-http://ipmedia.pit.su/KRYM_24/index.m3u8
+http://10.1.0.8/KRYM_24/index.m3u8
 #EXTINF:-1 tvg-id="2472" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/204.png", Первый Крымский
 #EXTGRP: Новостной
-http://ipmedia.pit.su/Pervyy_Krymskiy/index.m3u8
+http://10.1.0.8/Pervyy_Krymskiy/index.m3u8
 #EXTINF:-1 tvg-id="933" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/291.png", ТНВ Планета
 #EXTGRP: Региональный
-http://ipmedia.pit.su/tnv_planeta_n3/index.m3u8
+http://10.1.0.8/tnv_planeta_n3/index.m3u8
 #EXTINF:-1 tvg-id="2242" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/292.png", World Fashion Channel
 #EXTGRP: Развлекательные
-http://ipmedia.pit.su/wfc_n3/index.m3u8
+http://10.1.0.8/wfc_n3/index.m3u8
 #EXTINF:-1 tvg-id="2455" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/293.png", Успех
 #EXTGRP: Новостной
-http://ipmedia.pit.su/uspech_n3/index.m3u8
+http://10.1.0.8/uspech_n3/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/", Про Бизнес
 #EXTGRP: Новостной
-http://ipmedia.pit.su/pro_bisnes_n3/index.m3u8
+http://10.1.0.8/pro_bisnes_n3/index.m3u8
 #EXTINF:-1 tvg-id="151" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/214.png", Bridge TV
 #EXTGRP: Музыкальные
-http://ipmedia.pit.su/Bridge_TV_n3/index.m3u8
+http://10.1.0.8/Bridge_TV_n3/index.m3u8
 #EXTINF:-1 tvg-id="6305" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/299.png", СочиЛайф
 #EXTGRP: Региональный
-http://ipmedia.pit.su/sochi_live_n3/index.m3u8
+http://10.1.0.8/sochi_live_n3/index.m3u8
 #EXTINF:-1 tvg-id="146" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/296.png", Первый канал HD
 #EXTGRP: Региональный
-http://ipmedia.pit.su/perviy_hd_n3/index.m3u8#no_auth
+http://10.1.0.8/perviy_hd_n3/index.m3u8#no_auth
 #EXTINF:-1 tvg-id="" tvg-logo="http://sp.pit.su/stalker_portal/misc/logos/original/218.png", Камера: Площадь Ленина
 #EXTGRP: Камеры
 http://webcam.pit.su:88/ploschadlenina/index.m3u8
