@@ -13,6 +13,16 @@ const HOST = '0.0.0.0';
 app.use(cors());
 app.use(express.json());
 
+
+// 🔸 Логгер запросов
+app.use((req, res, next) => {
+    const now = new Date().toISOString();
+    const ip = req.headers['x-forwarded-for'] || req.socket.remoteAddress;
+    const userAgent = req.headers['user-agent'] || 'unknown';
+    console.log(`[${now}] ${ip} → ${req.method} ${req.originalUrl} (${userAgent})`);
+    next();
+});
+
 // Подключаем маршруты
 app.use('/api/tv', tvRoutes);
 
