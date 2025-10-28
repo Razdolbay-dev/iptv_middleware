@@ -1,0 +1,202 @@
+/* main_menu.css - тёмная neo-flat тема для TVIP portal */
+
+/* основной контейнер */
+.portal-wrap {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, #07070a 0%, #0e1016 100%);
+    color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Header */
+.portal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 28px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.02), transparent);
+    border-bottom: 1px solid rgba(255,255,255,0.03);
+    backdrop-filter: blur(6px);
+}
+.hdr-left { display:flex; align-items:center; gap:12px; }
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.logo-sub {
+    font-size: 13px;
+    color: var(--muted);
+    margin-top:4px;
+}
+
+/* date/time */
+.hdr-right .datetime { text-align:right; font-weight:600; }
+.hdr-right .date { display:block; font-size:13px; color:var(--muted); }
+.hdr-right .time { display:block; font-size:20px; color:#ffc528; font-weight:700; margin-top:3px; }
+
+/* Main area */
+.portal-main {
+    flex:1;
+    padding: 26px 36px;
+    overflow: auto;
+}
+
+/* Hero */
+.main-hero {
+    margin-bottom: 18px;
+}
+.hero-title {
+    font-size: 34px;
+    font-weight:700;
+    margin-bottom:6px;
+}
+.hero-sub {
+    font-size: 16px;
+    color:var(--muted);
+}
+
+/* Tile grid */
+.tile-grid {
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.tile {
+    flex: 0 0 260px;
+    height: 140px;
+    background: var(--glass);
+    border-radius: var(--radius);
+    padding: 18px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 6px 18px rgba(2,3,7,0.6), inset 0 -1px 0 rgba(255,255,255,0.02);
+    border: 1px solid rgba(255,255,255,0.03);
+    transition: transform .18s ease, box-shadow .18s ease, background .18s ease;
+    outline: none;
+    cursor: pointer;
+}
+.tile:active { transform: scale(.995); }
+.tile-title {
+    font-size: 22px;
+    font-weight: 700;
+}
+.tile-sub { color: var(--muted); font-size: 13px; }
+
+/* Акцентная плитка */
+.tile.accent {
+    background: linear-gradient(90deg, rgba(124,108,255,0.14), rgba(110,231,240,0.06));
+    border: 1px solid rgba(124,108,255,0.25);
+    box-shadow: 0 12px 30px rgba(124,108,255,0.12);
+}
+
+/* Фокус (для пульта) */
+[data-focusable] { position: relative; }
+.focused {
+    box-shadow: 0 18px 38px rgba(0,0,0,0.6), 0 0 0 4px var(--focus);
+    transform: translateY(-4px) scale(1.03);
+    z-index: 5;
+}
+
+/* hint и footer */
+.hint {
+    margin-top: 18px;
+    color: var(--muted);
+    font-size: 13px;
+}
+.portal-footer {
+    padding: 10px 22px;
+    font-size: 12px;
+    color: var(--muted);
+    text-align: right;
+    border-top: 1px solid rgba(255,255,255,0.02);
+    background: linear-gradient(transparent, rgba(255,255,255,0.02));
+}
+
+/* модули: списки / карточки */
+.module-screen h2 { margin: 0 0 12px 0; font-size: 24px; }
+.list { display: flex; flex-direction: column; gap: 8px; }
+.list-item {
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.02);
+    border: 1px solid rgba(255,255,255,0.02);
+    padding: 12px 16px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+.vod-grid { display: flex; gap: 12px; flex-wrap: wrap; }
+.vod-card {
+    width: 200px;
+    height: 120px;
+    border-radius: 8px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Адаптивность для 720x576 (TVIP) и 1280x720 */
+@media (max-height: 600px) {
+    .tile { flex: 0 0 220px; height: 120px; padding: 14px; }
+    .tile-title { font-size: 20px; }
+}
+@media (min-width: 1100px) {
+    .tile { flex: 0 0 300px; height: 160px; }
+    .portal-main { padding: 32px 56px; }
+}
+
+/* эстетика: focus outline убрать при мышке */
+.tile:focus { outline: none; }
+.list-item:focus { outline: none; }
+
+/* мелкие декоративные подстройки */
+.empty { padding: 40px; color: var(--muted); text-align:center; }
+.empty-title { font-size: 20px; }
+
+/* accessibility: large focus ring for TV */
+[data-focusable].focused { transition: box-shadow .12s ease, transform .12s ease; }
+
+/* Фокус (для пульта) */
+[data-focusable] {
+    position: relative;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+/* Активный фокус */
+.focused {
+    transform: translateY(-5px) scale(1.06);
+    z-index: 5;
+    box-shadow:
+            0 12px 28px rgba(124,108,255,0.45),
+            0 0 12px rgba(124,108,255,0.35) inset;
+    background: linear-gradient(135deg, rgba(124,108,255,0.2), rgba(110,231,240,0.1));
+}
+
+/* Наведение мышкой (для теста в браузере) */
+.tile:hover {
+    transform: translateY(-3px) scale(1.04);
+    box-shadow: 0 10px 24px rgba(124,108,255,0.25);
+    background: linear-gradient(135deg, rgba(124,108,255,0.12), rgba(110,231,240,0.06));
+}
+
+/* Акцентная плитка */
+.tile.accent {
+    background: linear-gradient(90deg, rgba(124,108,255,0.14), rgba(110,231,240,0.06));
+    border: 1px solid rgba(124,108,255,0.25);
+    box-shadow: 0 12px 30px rgba(124,108,255,0.12);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}

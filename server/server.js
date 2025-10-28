@@ -28,12 +28,12 @@ app.use('/api/tv', tvRoutes);
 
 
 // Отдача фронтенда — статические файлы
-app.use(express.static(path.resolve('./dist')))
+app.use(express.static(path.resolve('./c')))
 
 // SPA catch-all (только если путь не начинается с /api)
 app.use((req, res, next) => {
     if (!req.path.startsWith('/api')) {
-        res.sendFile(path.resolve('./dist/index.html'))
+        res.sendFile(path.resolve('./c/index.html'))
     } else {
         next()
     }

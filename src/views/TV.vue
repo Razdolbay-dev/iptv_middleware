@@ -322,7 +322,9 @@ onMounted(() => {
   remote.on('enter', () => {
     // play fullscreen on enter
     cur_view.value = 'full'
+
     playChannel(currentChannel.value, false)
+    player.SetTopWin(1)
     toggleInfo()
   })
   remote.on('info', toggleInfo)

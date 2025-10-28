@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=1280, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>TVIP Portal — Neo Flat</title>
+
+    <!-- Локальный шрифт (если положишь в /fonts). Иначе будет Roboto/Segoe UI/Arial -->
+    <style>
+        @font-face {
+            font-family: "AppRoboto";
+            src: url("assets/fonts/Roboto-Thin.woff2") format("woff2");
+            font-weight: 300 700;
+            font-style: normal;
+            font-display: swap;
+        }
+        :root {
+            --bg-0: #06060a;
+            --bg-1: #0f1115;
+            --panel: rgba(255,255,255,0.04);
+            --accent: linear-gradient(135deg,#6EE7F0 0%,#7C6CFF 100%);
+            --muted: rgba(255,255,255,0.35);
+            --focus: rgba(124,108,255,0.18);
+            --glass: rgba(255,255,255,0.03);
+            --radius: 10px;
+            --safe-width: 720px;
+            --font-family: "AppRoboto", "Roboto", "Segoe UI", Arial, sans-serif;
+        }
+        html,body { height:100%; margin:0; background:var(--bg-0); color:#fff; font-family:var(--font-family); }
+    </style>
+
+    <link rel="stylesheet" href="assets/css/main_menu.css" />
+    <script defer src="assets/js/app.js"></script>
+</head>
+<body>
+<div id="app" aria-live="polite"></div>
+
+<!-- Простая фолбэк-логика для пульта: включаем обработку клавиш -->
+<noscript>
+    <div style="padding:20px;color:#ff7777;background:#200">Этот портал требует включённого JavaScript.</div>
+</noscript>
+</body>
+</html>
